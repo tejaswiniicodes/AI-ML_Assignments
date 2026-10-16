@@ -1,18 +1,46 @@
-# AIML Honors
+# AIML Honors – Python Assignments
 
-Coursework, assignments, and projects completed as part of the AIML Honors program.
+This repository contains Python assignments covering Object-Oriented Programming (OOP), design patterns, CSV file handling, and database operations.
 
-## Projects
+## Assignments
 
-### Multi-Gateway Payment Engine
-A Python project demonstrating object-oriented programming concepts, abstraction, inheritance, polymorphism, and the Factory Design Pattern.
+### Assignment 1: Multi-Gateway Payment Engine
+Demonstrates OOP concepts, including abstraction, inheritance, polymorphism, and the Factory Design Pattern.
 
-## Technologies
+### Assignment 2: Employee CRUD Using CSV
+A menu-driven program to perform Create, Read, Update, and Delete (CRUD) operations on employee records stored in a CSV file.
+
+### Assignment 3: Employee CRUD Using Classes and Database
+Implements employee record management using Python classes and database connectivity.
+
+### Assignment 4: Menu-Driven Employee Database Management
+A menu-driven Python program to perform CRUD operations on employee records in a database.
+
+## Technologies Used
 - Python
 - Object-Oriented Programming
+- CSV File Handling
+- MySQL and SQL
 
-## Running the Project
+## How to Run
 
-Run the payment engine using:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tejaswiniicodes/AI-ML_Assignments.git
+   ```
+2. Open the project folder.
+3. Install the MySQL connector if required:
+   ```bash
+   pip install mysql-connector-python
+   ```
+4. Run the required Python file:
+   ```bash
+   python filename.py
+   ```
 
-python Multi_Gateway_Payment.py
+*Note: Start MySQL Server and configure the database credentials before running database-based assignments.*
+
+## Author
+
+**Tejaswini Kadu**  
+GitHub: [@tejaswiniicodes](https://github.com/tejaswiniicodes)
